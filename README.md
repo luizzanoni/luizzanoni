@@ -43,7 +43,11 @@ const luizzanoni = {
     }
 }
 ```
+  
+</div>
+</details>
 
+  
 <!--
 **luizzanoni/luizzanoni** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
