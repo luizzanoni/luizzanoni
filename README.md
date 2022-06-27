@@ -34,7 +34,7 @@ const luizzanoni = {
                 Javascript: ['Vanilla JS', 'React'],
                 HTML: ['HTML5', 'Semantic HTML'],
                 CSS: ['sass', 'styled-components', 'Bootstrap'],
-                .NET: ['C', 'C++', 'C#', 'F#', 'VB'],
+                dotNET: ['C', 'C++', 'C#', 'F#', 'VB'],
             },
             backEnd: {
                 Javascript: ['Node.js', 'Express']
