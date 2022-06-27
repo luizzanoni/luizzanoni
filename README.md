@@ -31,9 +31,10 @@ const luizzanoni = {
     technical: {
         technologies: {
             frontEnd: {
-                Javascript: ['Vanilla JS', 'React', 'Redux', 'Jest'],
+                Javascript: ['Vanilla JS', 'React'],
                 HTML: ['HTML5', 'Semantic HTML'],
                 CSS: ['sass', 'styled-components', 'Bootstrap'],
+                .NET: ['C', 'C++', 'C#', 'F#', 'VB'],
             },
             backEnd: {
                 Javascript: ['Node.js', 'Express']
