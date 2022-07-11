@@ -37,7 +37,8 @@ const luizzanoni = {
                 dotNET: ['C', 'C++', 'C#', 'F#', 'VB'],
             },
             backEnd: {
-                Javascript: ['Node.js', 'Express']
+                Javascript: ['Node.js', 'Express'],
+                dotNET: ['C', 'C++', 'C#', 'F#', 'VB'],
             },
             architecture: ['Single Page Applications', 'Domain Driven Design', 'Feature First'],
         },
