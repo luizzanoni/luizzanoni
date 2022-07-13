@@ -22,7 +22,7 @@ const luizzanoni = {
         fullName: 'Luiz Gustavo Zanoni',
         birthDate: '2000-01-27',
         pronouns: 'he' | 'him',
-        interests: ['music', 'games', 'language learning', 'trip's'],
+        interests: ['music', 'games', 'language learning', 'trip's', motorcycle],
         motivation: [
             'Discover and code new things',
             'Making life easier and smarter through tech',
