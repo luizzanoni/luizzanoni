@@ -15,7 +15,6 @@ I'm a Software Developer @ [Unimed Chapecó](https://www.unimed.coop.br/site/web
 <details>
 <summary> More about me:</summary>
 <div align="left">
-<details>
 
 
 ``` js
