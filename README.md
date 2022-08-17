@@ -24,7 +24,7 @@ const luizzanoni = {
         fullName: 'Luiz Gustavo Zanoni',
         birthDate: '2000-01-27',
         pronouns: 'he' | 'him',
-        interests: ['music', 'games', 'language learning', 'trip's', motorcycle],
+        interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
         motivation: [
             'Discover and code new things',
             'Making life easier and smarter through tech',
@@ -34,15 +34,15 @@ const luizzanoni = {
     {
         technologies: 
         {
-              HTML:
-              CSS:
-              Javascript:
-              dotNET:
-              Python:
-              React:
-              API's:
-              NEXT.JS:
-              PL/SQL:
+              HTML,
+              CSS,
+              Javascript,
+              dotNET,
+              Python,
+              React,
+              APIs,
+              nextJS,
+              PL/SQL,
         },
     }
 }
