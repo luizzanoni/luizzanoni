@@ -30,21 +30,19 @@ const luizzanoni = {
             'Making life easier and smarter through tech',
         ],
     },
-    technical: {
-        technologies: {
-            frontEnd: {
-                Javascript: ['Vanilla JS', 'React'],
-                HTML: ['HTML5', 'Semantic HTML'],
-                CSS: ['sass', 'styled-components', 'Bootstrap'],
-                dotNET: ['C', 'C++', 'C#', 'F#', 'VB'],
-                Python: ['Developed applications that are on github to facilitate the day-to-day']
-            },
-            backEnd: {
-                Javascript: ['Node.js', 'Express'],
-                dotNET: ['C', 'C++', 'C#', 'F#', 'VB'],
-                Python: ['Developed applications that are on github to facilitate the day-to-day']
-            },
-            architecture: ['Single Page Applications', 'Domain Driven Design', 'Feature First'],
+    technical: 
+    {
+        technologies: 
+        {
+              HTML:
+              CSS:
+              Javascript:
+              dotNET:
+              Python:
+              React:
+              API's:
+              NEXT.JS:
+              PL/SQL:
         },
     }
 }
