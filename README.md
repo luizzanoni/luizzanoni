@@ -33,15 +33,15 @@ const luizzanoni = {
     
     technical {
         technologies {
-            Python,
-            HTML,
-            CSS,
-            Javascript,
-            dotNET,
-            React,
-            APIs,
-            nextJS,
-            PL/SQL,
+            'Python'
+            'HTML'
+            'CSS'
+            'Javascript'
+            'dotNET'
+            'React'
+            'APIs'
+            'nextJS'
+            'PL/SQL'
         }
     }
 }
