@@ -18,7 +18,7 @@ I'm a Software Developer @ [Unimed Chapecó](https://www.unimed.coop.br/site/web
 <div align="left">
 
 
-``` js
+``` py
 const luizzanoni = {
     personal: {
         fullName: 'Luiz Gustavo Zanoni',
@@ -43,7 +43,7 @@ const luizzanoni = {
               APIs,
               nextJS,
               PL/SQL,
-        },
+        }
     }
 }
 ```
