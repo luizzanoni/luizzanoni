@@ -14,7 +14,7 @@ I'm a Software Developer @ [Unimed Chapecó](https://www.unimed.coop.br/site/web
 
 
 <details>
-<summary> More about me:</summary>
+
 <div align="left">
 
 
@@ -28,7 +28,7 @@ const luizzanoni = {
         motivation: [
             'Discover and code new things',
             'Making life easier and smarter through tech',
-        ],
+        ]
     }
     
     technical {
