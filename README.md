@@ -29,20 +29,19 @@ const luizzanoni = {
             'Discover and code new things',
             'Making life easier and smarter through tech',
         ],
-    },
-    technical: 
-    {
-        technologies: 
-        {
-              HTML,
-              CSS,
-              Javascript,
-              dotNET,
-              Python,
-              React,
-              APIs,
-              nextJS,
-              PL/SQL,
+    }
+    
+    technical {
+        technologies {
+            Python,
+            HTML,
+            CSS,
+            Javascript,
+            dotNET,
+            React,
+            APIs,
+            nextJS,
+            PL/SQL,
         }
     }
 }
