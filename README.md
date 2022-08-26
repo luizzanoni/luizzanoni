@@ -31,17 +31,17 @@ const luizzanoni = {
         ]
     }
     
-    technical {
-        technologies {
-            'Python'
-            'HTML'
-            'CSS'
-            'Javascript'
-            'dotNET'
-            'React'
-            'APIs'
-            'nextJS'
-            'PL/SQL'
+    technical: {
+        technologies: {
+            Python,
+            HTML,
+            CSS,
+            Javascript,
+            dotNET,
+            React,
+            APIs,
+            nextJS,
+            PL/SQL,
         }
     }
 }
