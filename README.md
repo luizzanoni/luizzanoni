@@ -38,6 +38,7 @@ const luizzanoni = {
             CSS,
             Javascript,
             dotNET,
+            ASP.NET MVC
             React,
             APIs,
             nextJS,
