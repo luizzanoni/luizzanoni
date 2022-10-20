@@ -31,8 +31,10 @@ const luizzanoni = {
         ]
     }
     
-    technical: {
-        technologies: {
+    technical: 
+    {
+        technologies: 
+        {
             Python,
             HTML,
             CSS,
