@@ -38,8 +38,8 @@ const luizzanoni = {
             Python,
             HTML,
             CSS,
-            Javascript,
-            dotNET,
+            JavaScript,
+            C#,
             ASP.NET MVC
             React,
             APIs,
