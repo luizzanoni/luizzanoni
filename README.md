@@ -3,7 +3,7 @@
 <div align="center">
     
 </div>
-    <div style="display: inline_block"><br>
+    <div style="display: center"><br>
         <img align="center" alt="Lucas-pic" height="500" style="border-radius:1000px; src="<img src="https://media4.giphy.com/media/QJ8bR5An4VC59FvVcx/giphy.gif?cid=ecf05e47r4piwvov5yx02nm3up8a2jei03pwcs2b33mxmb2m&amp;rid=giphy.gif&amp;ct=s">
 </div>
  
