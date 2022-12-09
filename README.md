@@ -1,6 +1,3 @@
-
-
-
 ## Hello, World! 👋
 
 <div align="center">
