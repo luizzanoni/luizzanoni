@@ -22,13 +22,13 @@ I'm a Software Developer at <a href="https://m8sistemas.com.br/">M8 Sistemas</a>
 public ActionResult LuizGustavoZanoni(int Id)
 {
 	var luizGustavo = GI.S<LuizGustavoZanoni>()
-						.Listar(false, s => s.Id == filtro)
-						.Select(s => new 
-						{
-							s.FullName, s.BirthDate, s.Pronouns, 
-							s.Interests, s.Motivations, s.Technologies
-						})
-						.FirstOrDefault();
+			    .Listar(false, s => s.Id == filtro)
+			    .Select(s => new 
+			    {
+				  s.FullName, s.BirthDate, s.Pronouns, 
+				  s.Interests, s.Motivations, s.Technologies
+			     })
+			    .FirstOrDefault();
 						
 		var quemSouEu = luizGustavo;
 			Console.WriteLine
