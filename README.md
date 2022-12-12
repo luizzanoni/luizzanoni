@@ -18,35 +18,30 @@ I'm a Software Developer at <a href="https://m8sistemas.com.br/">M8 Sistemas</a>
 <div align="left">
 
 
-``` js
-const luizzanoni = {
-    personal: {
-        fullName: 'Luiz Gustavo Zanoni',
-        birthDate: '2000-01-27',
-        pronouns: 'he' | 'him',
-        interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
-        motivation: [
-            'Discover and code new things',
-            'Making life easier and smarter through tech',
-        ]
-    }
-    
-    technical: 
-    {
-        technologies: 
-        {
-            Python,
-            HTML,
-            CSS,
-            JavaScript,
-            C#,
-            ASP.NET MVC
-            React,
-            APIs,
-            nextJS,
-            PL/SQL,
-        }
-    }
+``` C#
+public ActionResult LuizGustavoZanoni()
+{
+	var luizGustavo = GI.S<LuizGustavoZanoni>()
+						.Listar(false, s => s.Id == filtro)
+						.Select(s => new {s.FullName, s.BirthDate, s.Pronouns, s.Interests, s.Motivations, s.Technologies})
+						.FirstOrDefault();
+						
+		var quemSouEu = luizGustavo;
+		
+			Console.WriteLine
+			(
+				fullName: 'Luiz Gustavo Zanoni',
+				birthDate: '2000-01-27',
+				pronouns: 'he' | 'him',
+				interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
+				motivation: 
+				{
+					'Discover and code new things',
+					'Making life easier and smarter through tech',
+				}
+				Technologies:
+				HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery.
+			)	
 }
 ```
   
