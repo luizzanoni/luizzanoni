@@ -35,7 +35,7 @@ public ActionResult LuizGustavoZanoni(int Id)
 			Console.WriteLine
 			(
 				fullName: 'Luiz Gustavo Zanoni',
-				birthDate: '2000-01-27',
+				birthDate: '2000-01-27 | 22 years',
 				pronouns: 'he' | 'him',
 				interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
 				motivation: 
