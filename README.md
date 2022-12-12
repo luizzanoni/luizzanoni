@@ -27,7 +27,7 @@ public ActionResult LuizGustavoZanoni(int Id)
 			    {
 				  s.FullName, s.BirthDate, s.Pronouns, 
 				  s.Interests, s.Motivations, s.Technologies
-			     })
+			    })
 			    .FirstOrDefault();
 						
 		var quemSouEu = luizGustavo;
