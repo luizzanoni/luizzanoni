@@ -31,7 +31,6 @@ public ActionResult LuizGustavoZanoni(int Id)
 						.FirstOrDefault();
 						
 		var quemSouEu = luizGustavo;
-		
 			Console.WriteLine
 			(
 				fullName: 'Luiz Gustavo Zanoni',
