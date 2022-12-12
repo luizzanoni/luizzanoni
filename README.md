@@ -23,7 +23,11 @@ public ActionResult LuizGustavoZanoni()
 {
 	var luizGustavo = GI.S<LuizGustavoZanoni>()
 						.Listar(false, s => s.Id == filtro)
-						.Select(s => new {s.FullName, s.BirthDate, s.Pronouns, s.Interests, s.Motivations, s.Technologies})
+						.Select(s => new 
+						{
+							s.FullName, s.BirthDate, s.Pronouns, 
+							.Interests, s.Motivations, s.Technologies
+						})
 						.FirstOrDefault();
 						
 		var quemSouEu = luizGustavo;
