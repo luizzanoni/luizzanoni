@@ -26,7 +26,7 @@ public ActionResult LuizGustavoZanoni()
 			    .Select(s => new 
 			    {
 				  s.FullName, s.BirthDate, s.Pronouns, 
-				  .Interests, s.Motivations, s.Technologies
+				  s.Interests, s.Motivations, s.Technologies
 			    })
 			    .FirstOrDefault();
 						
