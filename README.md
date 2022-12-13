@@ -46,7 +46,9 @@ public ActionResult LuizGustavoZanoni()
 						'Making life easier and smarter through tech',
 					}
 					Technologies:
-					HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery
+					{
+						'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
+					}
 				)
 		} else 
 			luizGustavo.DoesNotExist();
