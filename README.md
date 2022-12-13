@@ -33,14 +33,13 @@ public ActionResult LuizGustavoZanoni()
 		if(luizGustavo.HasValue())
 		{			
 			var quemSouEu = luizGustavo;
-			
 				Console.WriteLine
 				(
-					fullName: 'Luiz Gustavo Zanoni',
-					birthDate: '2000-01-27' | '22 years',
-					pronouns: 'he' | 'him',
-					interests: 'music, games, language learning, trips, motorcycle',
-					motivation: 
+					FullName: 'Luiz Gustavo Zanoni',
+					BirthDate: '2000-01-27' | '22 years',
+					Pronouns: 'he' | 'him',
+					Interests: 'music, games, language learning, trips, motorcycle',
+					Motivation: 
 					{
 					     'Discover and code new things',
 					     'Making life easier and smarter through tech',
