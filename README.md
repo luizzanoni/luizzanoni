@@ -18,35 +18,38 @@ I'm a Software Developer at <a href="https://m8sistemas.com.br/">M8 Sistemas</a>
 <div align="left">
 
 
-``` C#
-public ActionResult LuizGustavoZanoni(int Id)
+``` C++
+public ActionResult LuizGustavoZanoni()
 {
 	var luizGustavo = GI.S<LuizGustavoZanoni>()
 			    .Listar(false, s => s.Id == filtro)
 			    .Select(s => new 
 			    {
 				  s.FullName, s.BirthDate, s.Pronouns, 
-				  s.Interests, s.Motivations, s.Technologies
+				  .Interests, s.Motivations, s.Technologies
 			    })
 			    .FirstOrDefault();
 						
-		var quemSouEu = luizGustavo;
-			Console.WriteLine
-			(
-				FullName: 'Luiz Gustavo Zanoni',
-				BirthDate: '2000-01-27' | '22 years',
-				Pronouns: 'he' | 'him',
-				Interests: 'music', 'games', 'language learning', 'trips', 'motorcycle',
-				Motivation: 
-				{
-					'Discover and code new things',
-					'Making life easier and smarter through tech',
-				}
-				Technologies:
-				{
-					'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
-				}
-			)	
+		if(luizGustavo.HasValue())
+		{			
+			var quemSouEu = luizGustavo;
+			
+				Console.WriteLine
+				(
+					fullName: 'Luiz Gustavo Zanoni',
+					birthDate: '2000-01-27',
+					pronouns: 'he' | 'him',
+					interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
+					motivation: 
+					{
+						'Discover and code new things',
+						'Making life easier and smarter through tech',
+					}
+					Technologies:
+					HTML, CSS, dotNET, JavaScript, React, API's, ASP.NET Core, MVC, jQuery
+				)
+		} else 
+			luizGustavo.DoesNotExist();
 }
 ```
   
