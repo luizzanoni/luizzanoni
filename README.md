@@ -39,15 +39,15 @@ public ActionResult LuizGustavoZanoni()
 					fullName: 'Luiz Gustavo Zanoni',
 					birthDate: '2000-01-27',
 					pronouns: 'he' | 'him',
-					interests: ['music', 'games', 'language learning', 'trips', 'motorcycle'],
+					interests: 'music', 'games', 'language learning', 'trips', 'motorcycle',
 					motivation: 
 					{
-						'Discover and code new things',
-						'Making life easier and smarter through tech',
+					     'Discover and code new things',
+					     'Making life easier and smarter through tech',
 					}
 					Technologies:
 					{
-						'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
+					     'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
 					}
 				)
 		} else 
