@@ -18,7 +18,7 @@ I'm a Software Developer at <a href="https://m8sistemas.com.br/">M8 Sistemas</a>
 <div align="left">
 
 
-``` C++
+``` C
 public ActionResult LuizGustavoZanoni()
 {
 	var luizGustavo = GI.S<LuizGustavoZanoni>()
