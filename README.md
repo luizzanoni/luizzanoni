@@ -13,7 +13,7 @@ I'm a Software Developer at <a href="https://m8sistemas.com.br/">M8 Sistemas</a>
 
 <div align="left">
 
-#### About me in select C#
+#### About me in C#
 	
 ``` C#
 public ActionResult LuizGustavoZanoni()
