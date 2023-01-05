@@ -52,6 +52,3 @@ public ActionResult LuizGustavoZanoni()
 ```
   
 </div>
-
-	
-	
