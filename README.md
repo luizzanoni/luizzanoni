@@ -22,7 +22,7 @@ public ActionResult LuizGustavoZanoni()
 			    .Listar(false, s => s.Id == filtro)
 			    .Select(s => new 
 			    {
-                    s.FullName, s.BirthDate, s.Pronouns, 
+				    s.FullName, s.BirthDate, s.Pronouns, 
 				    s.Interests, s.Motivations, s.Technologies
 			    })
 			    .ToList();
