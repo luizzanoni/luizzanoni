@@ -22,10 +22,10 @@ public ActionResult LuizGustavoZanoni()
 			    .Listar(false, s => s.Id == filtro)
 			    .Select(s => new 
 			    {
-				  s.FullName, s.BirthDate, s.Pronouns, 
-				  s.Interests, s.Motivations, s.Technologies
+                    s.FullName, s.BirthDate, s.Pronouns, 
+				    s.Interests, s.Motivations, s.Technologies
 			    })
-			    .FirstOrDefault();
+			    .ToList();
 						
 		if(luizGustavo.HasValue())
 		{			
@@ -38,16 +38,18 @@ public ActionResult LuizGustavoZanoni()
 					Interests: 'music, games, language learning, trips, motorcycle',
 					Motivation: 
 					{
-					     'Discover and code new things',
-					     'Making life easier and smarter through tech',
+					    'Discover and code new things',
+					    'Making life easier and smarter through tech',
 					}
 					Technologies:
 					{
-					     'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
+					    'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
 					}
 				)
 		} else 
-			luizGustavo.DoesNotExist();
+			Console.WriteLine("Luiz não existe!");
+
+    return luizGustavo;
 }
 ```
   
