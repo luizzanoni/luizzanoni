@@ -1,10 +1,10 @@
 ## Hello, World! 👋
 
-<div align="center" target="_blank">
+<div align="center">
 
 <img src="https://user-images.githubusercontent.com/56282554/174655304-d35e92f9-d145-4041-ac20-faf4b8a7adf4.gif">
 
-I'm a Software Developer at <a href="https://interfoc.com.br/">Interfoc Sistemas</a></p>
+I'm a Software Developer at <a href="https://interfoc.com.br/" target="_blank">Interfoc Sistemas</a></p>
 
 [![WebSite](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://luizzanoni.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luizgustavozanoni/)
