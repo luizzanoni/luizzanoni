@@ -16,41 +16,48 @@ I'm a Software Developer at <a href="https://interfoc.com.br/" target="_blank">I
 #### About me in C#
 	
 ``` C#
+
 public ActionResult LuizGustavoZanoni()
 {
-	var luizGustavo = GI.S<LuizGustavoZanoni>()
-			    .Listar(false, s => s.Id == filtro)
-			    .Select(s => new 
-			    {
-				    s.FullName, s.BirthDate, s.Pronouns, 
-				    s.Interests, s.Motivations, s.Technologies
-			    })
-			    .ToList();
-						
-		if(luizGustavo.HasValue())
-		{			
-			var quemSouEu = luizGustavo;
-				Console.WriteLine
-				(
-					FullName: 'Luiz Gustavo Zanoni',
-					BirthDate: '2000-01-27' | '23 years',
-					Pronouns: 'he' | 'him',
-					Interests: 'music, games, language learning, trips, motorcycle',
-					Motivation: 
-					{
-					    'Discover and code new things',
-					    'Making life easier and smarter through tech',
-					}
-					Technologies:
-					{
-					    'HTML, CSS, dotNET, JavaScript, React, APIs, ASP.NET Core, MVC, jQuery'
-					}
-				)
-		} else 
-			Console.WriteLine("Luiz não existe!");
+    var filtro = informacoesSobreMim();
 
-    return luizGustavo;
+    var luizGustavo = GI.S<LuizGustavoZanoni>()
+        .Listar(false, s => s.Id == filtro)
+        .Select(s => new
+        {
+            s.FullName,
+            s.BirthDate,
+            s.Interests,
+            s.Motivations,
+            s.Technologies
+        })
+        .ToList();
+
+    if (luizGustavo.Any())
+    {
+        var quemSouEu = luizGustavo.FirstOrDefault();
+        Console.WriteLine(
+            $"Nome completo: Luiz Gustavo Zanoni" +
+            $"Data de nascimento: 2000/01/27" +
+            $"Interesses: music, games, language learning, trips, motorcycle" +
+            $"Motivação:\n" +
+		$"{string.Join(
+			"Discovering and coding new things"
+			"Making life easier and smarter through technology"
+			"Innovating and developing technological solutions to make the world a better place"
+			"Contributing to society through the creation of intelligent applications and systems")} +
+            $"Tecnologias:\n" +
+            	$"{string.Join(
+			SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework);
+    }
+    else
+    {
+        Console.WriteLine("Luiz não existe!");
+    }
+
+    return View(luizGustavo);
 }
+
 ```
   
 </div>
