@@ -25,10 +25,10 @@ public ActionResult LuizGustavoZanoni()
         .Listar(false, s => s.Id == filtro)
         .Select(s => new
         {
-            s.FullName,
-            s.BirthDate,
-            s.Interests,
-            s.Motivations,
+            s.NomeCompleto,
+            s.DataNascimento,
+            s.Interesses,
+            s.Motivacao,
             s.Technologies
         })
         .ToList();
@@ -37,16 +37,16 @@ public ActionResult LuizGustavoZanoni()
     {
         var quemSouEu = luizGustavo.FirstOrDefault();
         Console.WriteLine(
-            $"Nome completo: Luiz Gustavo Zanoni" +
-            $"Data de nascimento: 2000/01/27" +
+            $"NomeCompleto: Luiz Gustavo Zanoni" +
+            $"DataNascimento: 2000/01/27" +
             $"Interesses: music, games, language learning, trips, motorcycle" +
-            $"Motivação:\n" +
+            $"Motivacao:\n" +
 		$"{string.Join(
 			"Discovering and coding new things"
 			"Making life easier and smarter through technology"
 			"Innovating and developing technological solutions to make the world a better place"
 			"Contributing to society through the creation of intelligent applications and systems")} +
-            $"Tecnologias:\n" +
+            $"Technologies:\n" +
             	$"{string.Join(
 			SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework);
     }
