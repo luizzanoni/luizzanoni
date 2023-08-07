@@ -36,11 +36,18 @@ public ActionResult LuizGustavoZanoni()
         var technologies = string.Join(" · ", quemSouEu.Technologies);
 
         Console.WriteLine(
-            $"NomeCompleto: {quemSouEu.NomeCompleto}\n" +
-            $"DataNascimento: {quemSouEu.DataNascimento:yyyy/MM/dd}\n" +
-            $"Interesses: {interesses}\n" +
-            $"Motivacao:\n{motivacao}\n" +
-            $"Technologies:\n{technologies}"
+            $"NomeCompleto: Luiz Gustavo Zanoni" +
+            $"DataNascimento: 2000/01/27" +
+            $"Interesses: music, games, language learning, trips, motorcycle" +
+            $"Motivacao:\n" +
+		$"{string.Join(
+		"Discovering and coding new things"
+		"Making life easier and smarter through technology"
+		"Innovating and developing technological solutions to make the world a better place"
+		"Contributing to society through the creation of intelligent applications and systems")} +
+            $"Technologies:\n" +
+            	$"{string.Join(
+		SQL · GitFlow · PostgreSQL · API REST · Git · C# · HTML5 · CSS · JavaScript · .NET Framework);
         );
     }
     else
