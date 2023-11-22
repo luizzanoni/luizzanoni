@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/56282554/174655304-d35e92f9-d145-4041-ac20-faf4b8a7adf4.gif">
+<a href="https://app.daily.dev/luizzanoni"><img src="https://api.daily.dev/devcards/face8794e7d449f592ba325e43d93334.png?r=ee2" width="400" alt="Luiz Gustavo Zanoni's Dev Card"/></a>
 
 I'm a Software Developer at <a href="https://interfoc.com.br/" target="_blank">Interfoc Sistemas</a></p>
 
