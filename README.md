@@ -16,7 +16,7 @@ using my.Life;
 using my.Name;
 using my.Hobbies;
 
-namespace HelloPdf {
+namespace HelloUser {
     class Program {
         static void Main(string[] args) {
             using var document = new Document(new LuizGustavoZanoni(new Writer("hellouser.pdf")));
