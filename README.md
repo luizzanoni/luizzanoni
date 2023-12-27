@@ -23,8 +23,8 @@ namespace HelloPdf {
             document.add(new Paragraph(" name: Luiz Gustavo Zanoni "));
 	    document.add(new Paragraph(" dataNasc: 27/01/2000 "));
 	    document.add(new Paragraph(" interesses: music, games, language learning, trips, motorcycle "));
-	    document.add(new Paragraph(" technol.: SQL, GitFlow, PostgreSQL,
-					 API, Git, C#, HTML5, CSS, JS, .NET Framework"));
+	    document.add(new Paragraph(" front: React, JS, BootStrap, GitHub, Docker, CloudFormation"));
+            document.add(new Paragraph(" back: C#, VB.NET, Python, NodeJS, Java, MySQL/PostgreSQL"));
         }
     }
 }
